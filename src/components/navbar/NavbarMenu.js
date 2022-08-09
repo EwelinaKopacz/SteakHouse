@@ -3,7 +3,7 @@ import './NavBar.css';
 
 const NavbarMenu = () => {
     return (
-        <div className='nav__links'>
+        <nav className='nav'>
             <ul className='nav__list'>
                 <li className='nav__item'><a href="#" className='nav__link'>Steaks</a></li>
                 <li className='nav__item'><a href="#" className='nav__link'>Burgers</a></li>
@@ -12,7 +12,7 @@ const NavbarMenu = () => {
                 <li className='nav__item'><a href="#" className='nav__link'>Gdzie dowozimy?</a></li>
                 <li className='nav__item'><a href="#" className='nav__link'>Kontakt</a></li>
             </ul>
-        </div>
+        </nav>
     )
 }
 

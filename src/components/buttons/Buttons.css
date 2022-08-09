@@ -1,0 +1,15 @@
+.primary__btn{
+    width: clamp(120px, 35vw, 204px);
+    height: clamp(25px, 10vw, 49px);
+    border-radius: 1rem;
+    background-color: var(--clr-primary);
+    color:var(--clr-light);
+    font-weight: var(--fw-normal);
+    line-height: 14px;
+    text-align: center;
+    font-size: clamp(1.4rem, 1.3920rem + 0.0250vw, 1.44rem);
+    margin-bottom: 5.5vw;
+}
+.primary__btn:hover {
+    opacity: .8;
+}

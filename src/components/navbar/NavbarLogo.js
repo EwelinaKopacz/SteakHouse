@@ -5,7 +5,7 @@ import logo2x from '../../assets/logo2x.png';
 
 const NavbarLogo = () => {
     return (
-        <div className='nav__logo'>
+        <div className='logo'>
             <img src={logo} alt="logo steak house"
             srcSet={`${logo} 1x, ${logo2x} 2x`}
             />

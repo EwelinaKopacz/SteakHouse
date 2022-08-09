@@ -28,18 +28,18 @@ const NavBar = () => {
     },[])
 
     return (
-        <section className="header">
-            <nav className='nav'>
-                <NavbarLogo/>
-                {(toggleMenu || screenWidth > 575) && (
-                    <>
-                        <NavbarMenu/>
-                        <NavbarClient/>
-                    </>
-                )}
-                <button className='nav__btn' onClick={toggleNav}><i className="fa-solid fa-bars"></i></button>
-            </nav>
-        </section>
+        <header className='header'>
+            <NavbarLogo/>
+            {(toggleMenu || screenWidth > 580) && (
+                <>
+                    <NavbarMenu/>
+                    <NavbarClient/>
+                </>
+            )}
+            <button className='mobile__btn' onClick={toggleNav}>
+                <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu"><line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line></svg>
+            </button>
+        </header>
     )
 }
 

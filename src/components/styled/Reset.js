@@ -14,10 +14,6 @@ const ResetStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    img, object, embed {
-        max-width: 100%;
-    }
-
     ul {
         list-style: none;
     }

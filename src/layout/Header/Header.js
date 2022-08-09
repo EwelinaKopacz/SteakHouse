@@ -1,16 +1,15 @@
-import './Header.css';
 import NavBar from '../../components/navbar/NavBar';
-import Slider from '../../components/slider/Slider';
-import Brands from '../../components/brands/Brands';
-import Advert from '../../components/advert/Advert';
+import Hero from '../../components/hero/Hero';
+// import Brands from '../../components/brands/Brands';
+// import Advert from '../../components/advert/Advert';
 
 function Header() {
   return (
     <>
       <NavBar/>
-      <Slider/>
-      <Brands/>
-      <Advert/>
+      <Hero/>
+      {/* <Brands/>
+      <Advert/> */}
     </>
   );
 }

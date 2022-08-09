@@ -4,8 +4,10 @@ import './NavBar.css';
 
 const NavbarClient = () => {
     return (
-        <div className='nav__client'>
-            <div className='nav__box'>
+        <div className='client'>
+
+
+            <div className='client__box box'>
                 <div className='box__img'>
                     <svg width="14" height="16" viewBox="0 0 14 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Group 2">
@@ -16,7 +18,9 @@ const NavbarClient = () => {
                 </div>
                 <a href="#" className='box__text'>Moje konto</a>
             </div>
-            <div className='nav__box'>
+
+
+            <div className='client__box box'>
                 <div className='box__img'>
                     <svg width="18" height="16" viewBox="0 0 18 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="supermarket">
@@ -28,7 +32,9 @@ const NavbarClient = () => {
                 </div>
                 <a href="#" className='box__text'>Koszyk</a>
             </div>
-            <div className='nav__box'>
+
+
+            <div className='client__box box '>
                 <div className='box__img'>
                     <svg width="16" height="12" viewBox="0 0 16 12" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g id="Group 5">
@@ -39,6 +45,8 @@ const NavbarClient = () => {
                 </div>
                 <a href="#" className='box__text'>Zamów</a>
             </div>
+
+
         </div>
     )
 }
