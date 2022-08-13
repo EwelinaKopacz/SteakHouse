@@ -1,5 +1,5 @@
 import React from 'react';
-import './Advert.css';
+import './Adverts.css';
 
 const AdvertContent = (props) => {
     const {header,text} = props;

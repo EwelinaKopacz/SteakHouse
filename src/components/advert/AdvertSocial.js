@@ -1,10 +1,10 @@
 import React from 'react';
-import './Advert.css';
+import './Adverts.css';
 
 const AdvertSocial = () => {
     return(
-        <div className='advert__social'>
-            <div className='advert__box'>
+        <div className='advert__social social'>
+            <div className='social__box'>
                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="Group 4">
                     <g id="huawei-app-badge-9757fa 2 copy">
@@ -25,7 +25,7 @@ const AdvertSocial = () => {
                     </g>
                 </svg>
             </div>
-            <div className='advert__box'>
+            <div className='social__box'>
                 <svg width="27" height="26" viewBox="0 0 27 26" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="App_Store_(iOS)">
                     <path id="Path" d="M21.0288 0H5.77118C2.91358 0 0.599976 2.3136 0.599976 5.1712V20.432C0.599976 23.2864 2.91358 25.6 5.77118 25.6H21.032C23.8864 25.6 26.2032 23.2864 26.2032 20.4288V5.1712C26.2 2.3136 23.8864 0 21.0288 0Z" fill="url(#paint0_linear)"/>
@@ -39,7 +39,7 @@ const AdvertSocial = () => {
                     </defs>
                 </svg>
             </div>
-            <div className='advert__box'>
+            <div className='social__box'>
                 <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <g id="huawei-app-badge-9757fa 2">
                     <g id="Group">

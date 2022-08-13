@@ -5,6 +5,7 @@
     align-items: center;
     flex-wrap: wrap;
     margin: min(2vw, 10rem) 0;
+    border:1px solid pink;
 }
 
 .brand__box {
