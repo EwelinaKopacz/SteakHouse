@@ -5,8 +5,8 @@ const GlobalStyle = createGlobalStyle`
     html {
         height:100%;
         font-size: 62.5%;
-        --site-witdh-max:1920px;
-        --site--witdh-min:320px;
+        --site-width-max:1920px;
+        --site--width-min:320px;
         --clr-primary:#920303;
         --clr-light:#FFFFFF;
         --clr-dark:#000000;

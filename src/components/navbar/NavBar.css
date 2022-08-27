@@ -1,5 +1,5 @@
 .header{
-    max-width: var(--site-witdh-max);
+    max-width: var(--site-width-max);
     min-height: 14vh;
     background:var(--clr-light);
     box-shadow: 0px 1px 21px rgba(0, 0, 0, 0.0520088);
@@ -7,11 +7,12 @@
     align-items: center;
     flex-wrap: wrap;
     margin: 0 auto;
-    padding: 0 7.5vw;
+    padding: 0 10rem;
     /* padding: 0 144px; */
 }
 
 .logo {
+    padding-left:2.2vw;
     margin-right:3.55vw;
     border: none;
 }
